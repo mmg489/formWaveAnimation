@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: steelblue;
+  background-color: pink;
   color: #fff;
   font-family: 'Muli', sans-serif;
   display: flex;
@@ -15,4 +15,20 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.container{
+    background-color: rgba(0,0,0,0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container a{
+    text-decoration: none;
+    color:paleturquoise;
 }
